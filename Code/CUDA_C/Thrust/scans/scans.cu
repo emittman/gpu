@@ -12,6 +12,9 @@ int main(){
   * ...
   * data[5] = data[0] + data[1] + ... + data[5]
   */
-  
+  printf("{");
+  for(int i=0; i<6; i++)
+  	  printf("%d, ",data[i]);
+  printf("}\n");
   // data is now {1, 1, 3, 5, 6, 9}
 }
